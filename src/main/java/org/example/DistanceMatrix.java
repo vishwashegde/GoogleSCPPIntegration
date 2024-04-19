@@ -1,7 +1,6 @@
 package org.example;
 
 import com.google.maps.DistanceMatrixApi;
-import com.google.maps.DistanceMatrixApiRequest;
 import com.google.maps.GeoApiContext;
 import com.google.maps.model.DistanceMatrixElement;
 import com.google.maps.model.DistanceMatrixRow;
@@ -13,7 +12,7 @@ import java.time.Instant;
 import java.util.List;
 import java.util.Arrays;
 
-public class DistanceMatrixTest {
+public class DistanceMatrix {
     private static final String GOOGLE_API_KEY = "AIzaSyCsnDRoKLIGufCrppywbW94pVpB3YqMLbw";
 
     public static void main(String[] args) {
